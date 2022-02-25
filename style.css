@@ -1,0 +1,160 @@
+
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.navbar-nav li a {
+    font-weight: 500;
+    color: black !important;
+}
+.navbar-nav li a:hover{
+    color: #379e8b !important;
+}
+.btn{
+    background: #f68d19 !important;
+    border: 1px solid #f68d19;
+    color: white !important;
+    font-weight: 600 !important;
+}
+.btn:hover{
+    background: #379e8b !important;
+    border: 1px solid #379e8b;
+    color: white !important;
+    font-weight: 600 !important;
+    box-shadow: 3px 3px 3px #f23842;
+}
+
+/* _______home-section_________ */
+
+.btn1{
+    background: #f23842 !important;
+    border: 1px solid #f23842;
+    color: white !important;
+    font-weight: 600 !important;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background: #f68d19 !important;
+    border: 1px solid #f68d19;
+    box-shadow:5px 5px 5px #24463f; ;
+}
+.casehome{
+    margin-top: 100px;
+}
+.casehome1{
+    background-image: linear-gradient(to right, #347e70 , #379e8b , #19d4b2);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #24463f;
+}
+/* .casehome2{
+    box-shadow: 5px 5px 5px #24463f;
+} */
+.para{
+    color: white;
+    margin: 100px 50px 0 50px;
+}
+#casehome-img{
+    height: 400px;
+    float: right;
+    /* position: relative;
+    left: 150px;*/
+}
+
+/* ===about_section=== */
+
+
+.caseabout11{
+    display: flex;
+}
+.caseabout1{
+    background-image: linear-gradient(to right, #347e70 , #379e8b , #19d4b2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #24463f;
+    color: white;
+    /* margin-right: 50px; */
+    padding: 80px 20px 50px 20px;
+}
+.caseabout2 div{
+    border: 1px solid #379e8b;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #24463f;
+    padding: 80px 0 73px 0;
+}
+
+/* ==cours_section== */
+
+.casecours1 p{
+    border-radius: 20px;
+    padding: 50px 50px 50px 50px;
+}
+
+/* =========diplome_section======= */
+
+.casediplome{
+    background-color: #f23842;
+    height: 600px;
+    color: white;
+}
+
+/* =========fin_diplome_section======= */
+
+/* =======nos_coach_section====== */
+.casenoscoach p{
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.casenoscoach1{
+
+    margin-right: 50px;
+}
+
+
+/* ======fin_nos_coach_section======== */
+
+/* =========nos_activite_section======== */
+
+.casenosactivite{
+    background-color: #f23842;
+    height: 750px;
+    color: white;
+}
+/* ========fin_nos_activite_section========== */
+
+
+/* ===nos_partenaire_section=== */
+
+.nospartenaire{
+    background-color: rgb(244, 249, 255);
+    height: 400px;
+}
+
+.nospartenaire img{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #24463f;;
+}
+
+/* ===fi_nos_partenaire_section=== */
+
+/* footer_section */
+
+.casefooter{
+    background-color: #379e8b;
+    height: 350px;
+    color: white;
+}
+
+.casefooter ul{
+    list-style: none;
+}
+/* fin_footer_section */
+
+
+
+
+
+
+
