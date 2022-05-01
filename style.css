@@ -1,160 +1,109 @@
-
-
-.navbar-nav li{
-    padding-right: 20px;
+*::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+.navbar-nav li {
+    padding-right: 10px;
 }
-
 .navbar-nav li a {
     font-weight: 500;
     color: black !important;
 }
-.navbar-nav li a:hover{
+.navbar-nav li a:hover {
     color: #379e8b !important;
 }
-.btn{
+.btn {
     background: #f68d19 !important;
-    border: 1px solid #f68d19;
+    border: none;
     color: white !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
-.btn:hover{
+.btn:hover {
     background: #379e8b !important;
-    border: 1px solid #379e8b;
-    color: white !important;
-    font-weight: 600 !important;
-    box-shadow: 3px 3px 3px #f23842;
+    box-shadow: 3px 3px 10px #f23842;
 }
-
+@media only screen and (max-width: 980px){
+    .navbar-nav li{
+        margin-left: 7%;
+    }
+}
 /* _______home-section_________ */
-
-.btn1{
+.btn1 {
     background: #f23842 !important;
-    border: 1px solid #f23842;
+    border: none;
     color: white !important;
-    font-weight: 600 !important;
-    margin-right: 20px;
+    font-weight: 500 !important;
+    margin-right: 10px;
     width: 150px;
     height: 40px;
     border-radius: 10px;
 }
-.btn1:hover{
+.btn1:hover {
     background: #f68d19 !important;
-    border: 1px solid #f68d19;
-    box-shadow:5px 5px 5px #24463f; ;
+    box-shadow: 5px 5px 10px #24463f;
 }
-.casehome{
-    margin-top: 100px;
-}
-.casehome1{
-    background-image: linear-gradient(to right, #347e70 , #379e8b , #19d4b2);
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px #24463f;
-}
-/* .casehome2{
-    box-shadow: 5px 5px 5px #24463f;
+/* .casehome {
+    margin: 7rem 0;
 } */
-.para{
+.casehome1 {
+    background: linear-gradient(to right, #347e70, #379e8b, #19d4b2);
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #24463f;
+}
+.para {
     color: white;
-    margin: 100px 50px 0 50px;
 }
-#casehome-img{
-    height: 400px;
-    float: right;
-    /* position: relative;
-    left: 150px;*/
+#casehome-img {
+    width: 80%;
 }
-
 /* ===about_section=== */
-
-
-.caseabout11{
+.caseabout11 {
     display: flex;
 }
-.caseabout1{
-    background-image: linear-gradient(to right, #347e70 , #379e8b , #19d4b2);
+.caseabout2 {
+    border: 2px solid #379e8b;
+    width: 90%;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #24463f;
-    color: white;
-    /* margin-right: 50px; */
-    padding: 80px 20px 50px 20px;
+    box-shadow: 5px 5px 10px #24463f;
 }
-.caseabout2 div{
-    border: 1px solid #379e8b;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px #24463f;
-    padding: 80px 0 73px 0;
-}
-
 /* ==cours_section== */
-
-.casecours1 p{
-    border-radius: 20px;
-    padding: 50px 50px 50px 50px;
+.casecours1 p {
+    border-radius: 10%;
+    width: 90%;
+    padding: 10%;
 }
-
 /* =========diplome_section======= */
-
-.casediplome{
+.casediplome, .casenosactivite {
     background-color: #f23842;
-    height: 600px;
-    color: white;
-}
-
-/* =========fin_diplome_section======= */
-
-/* =======nos_coach_section====== */
-.casenoscoach p{
-    border-radius: 20px;
-    padding: 20px 20px 20px 20px;
-}
-.casenoscoach1{
-
-    margin-right: 50px;
-}
-
-
-/* ======fin_nos_coach_section======== */
-
-/* =========nos_activite_section======== */
-
-.casenosactivite{
-    background-color: #f23842;
-    height: 750px;
-    color: white;
 }
 /* ========fin_nos_activite_section========== */
-
-
 /* ===nos_partenaire_section=== */
-
-.nospartenaire{
+.nospartenaire {
     background-color: rgb(244, 249, 255);
-    height: 400px;
 }
-
-.nospartenaire img{
+.nospartenaire img {
     border-radius: 20px;
-    box-shadow: 3px 3px 3px #24463f;;
+    box-shadow: 5px 5px 15px #24463f;
+    margin: 10% 0;
 }
-
 /* ===fi_nos_partenaire_section=== */
-
 /* footer_section */
-
-.casefooter{
+.casefooter {
     background-color: #379e8b;
-    height: 400px;
-    color: white;
 }
-
-.casefooter ul{
-    list-style: none;
+footer, section{
+    margin-top: 10vw;
 }
 /* fin_footer_section */
-
-
-
-
-
-
-
+#noscoach{
+    margin-top: 0px !important;
+}
+.tof{
+    padding: 0 4% 0 4%;
+    
+}
+/* @media only screen and (max-width : 768px) {
+} */
