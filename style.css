@@ -44,9 +44,9 @@
     background: #f68d19 !important;
     box-shadow: 5px 5px 10px #24463f;
 }
-.casehome {
+/* .casehome {
     margin: 7rem 0;
-}
+} */
 .casehome1 {
     background: linear-gradient(to right, #347e70, #379e8b, #19d4b2);
     width: 90%;
@@ -86,11 +86,24 @@
 }
 .nospartenaire img {
     border-radius: 20px;
-    box-shadow: 5px 5px 10px #24463f;
+    box-shadow: 5px 5px 15px #24463f;
+    margin: 10% 0;
 }
 /* ===fi_nos_partenaire_section=== */
 /* footer_section */
 .casefooter {
     background-color: #379e8b;
 }
+footer, section{
+    margin-top: 10vw;
+}
 /* fin_footer_section */
+#noscoach{
+    margin-top: 0px !important;
+}
+.tof{
+    padding: 0 4% 0 4%;
+    
+}
+/* @media only screen and (max-width : 768px) {
+} */
